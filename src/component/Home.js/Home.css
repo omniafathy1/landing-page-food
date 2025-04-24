@@ -1,0 +1,287 @@
+:root{
+    --third-color: #883870;
+}
+.numbers{
+    background-color: var(--third-color);
+    padding: 25px 0;
+    max-width: 100%;
+    text-align: center;
+    height: auto;
+    overflow: hidden;
+    color: #fff;
+}
+.numbers .row{
+    margin: 10px 0;
+}
+.numbers h2{
+    font-size: 50px;
+    font-weight: bold;
+    margin: 10px 0;
+    font-family: "Inter", sans-serif;
+}
+.numbers h6{
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+/* css to the pride section */
+.pride , .ingredients{
+    background-color: transparent;
+    padding: 25px 0;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 60px;
+}
+.pride img , .ingredients img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+.pride h2 , .ingredients h2 , .paralex h2{
+    font-size: 35px;
+    width: 80%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--third-color);
+    font-family: "Inter", sans-serif;
+    line-height: 50px;
+
+}
+.pride p , .ingredients p , .paralex p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+}
+
+.pride button , .ingredients button{
+    background-color: var(--third-color);
+    border: 1px solid var(--third-color);
+    box-sizing: border-box;
+    height: 40px;
+    text-align: center;
+    margin-top: 20px;
+    transition: .2 ease;
+
+}
+.pride button a , .ingredients button a{
+    display: block;
+    color: #fff;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pride button:hover a ,
+.ingredients button:hover a{
+    color: var(--third-color);
+}
+.pride button:hover,
+.ingredients button:hover{
+    background-color: #fff;
+}
+/* start css to the ingredients sections */
+
+.ingredients ul li{
+    list-style-type: square;
+    font-family: "Inter", sans-serif;
+    color: #333;
+    margin-top: 10px;
+
+}
+.ingredients ul{
+    padding: 0;
+}
+/* paralex */
+.paralex{
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+.paralex .row{
+    margin: 50px 0px;
+}
+
+.paralex h2{
+    width: 100%;
+    margin: 20px 0;
+}
+.paralex p{
+    color: #444;
+    margin:  20px 0;
+    line-height: 32px;
+}
+.paralex a{
+    color: var(--third-color);
+    font-size: 20px;
+    margin: 20px 0;
+    font-family: "Inter";
+    text-decoration: none !important;
+}
+/* plag */
+.blogs{
+    margin-top: 50px;
+    padding: 25px 0;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.blogs .row:first-child{
+    text-align: center;
+    margin: 25px 0;
+}
+.blogs h2{
+    font-size: 25px;
+    width: 100%;
+    font-weight: bold;
+    margin: 10px 0;
+    color: var(--third-color);
+    font-family: "Inter", sans-serif;
+    line-height: 50px;
+}
+.blogs p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #333;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+
+}
+.blogs .box{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid #f6f6f6;
+    box-sizing: border-box;
+    margin-top: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #a2a0a0;
+}
+.blogs img{
+    width: 100%;
+}
+.blogs h5{
+    color: var(--third-color);
+    font-family: "Inter";
+    font-size: 22px;
+    margin: 15px 0;
+}
+.blogs .box span{
+    display: block;
+    color: #444;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    margin: 10PX 0;
+    text-transform: uppercase;
+    letter-spacing: 1PX;
+
+}
+.blogs .box h6{
+    color: var(--third-color);
+    font-size: 22px;
+    font-family: "Inter", sans-serif;
+}
+.blogs button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    background-color: var(--third-color);
+    border: 1px solid var(--third-color);
+    box-sizing: border-box;
+    margin: 10px 0;
+    transition: .3s ease-in-out;
+}
+.blogs button a{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: 1px;
+}
+.blogs button:hover{
+    background-color: transparent;
+}
+.blogs button:hover a{
+    color: var(--third-color);
+}
+/* slider */
+.slider{
+    background-color: var(--third-color);
+    border:  1px solid var(--third-color);
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+.slider .carousel{
+    background-color: #fff;
+    margin: 40px 0;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 25px 0;
+}
+.slider img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 150px;
+
+}
+.slider .carousel-caption p{
+    color: #444;
+    font-size: 17px;
+    line-height: 30px;
+}
+.slider .carousel-caption span{
+    color: var(--third-color);
+    display: block;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.slider .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+
+}
+.slider .carousel-indicators button{
+    width: 30px;
+    height: 10px;
+    border: 1px solid var(--third-color);
+    background-color: var(--third-color);
+    margin: 5px 5px 15px 5px;
+}
+/* footer */
+.footer{
+    background-color: #f4e9ed;
+    color: var(--third-color);
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    
+}
+.footer .foot{
+    padding: 20px 0;
+}

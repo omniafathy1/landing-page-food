@@ -1,0 +1,33 @@
+:root{
+    --main-color: #883870;
+}
+nav{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border-radius: none;
+    
+    
+    
+}
+nav a{
+    color: var(--main-color) !important;
+    font-size: 15px;
+    letter-spacing: 1;
+    text-transform: uppercase;
+}
+nav #lastname{
+    border: 1px solid var(--main-color);
+    background-color: var(--main-color);
+    color: #fff !important;
+}
+nav #lastname:hover{
+    background-color: transparent;
+    color: var(--main-color) !important;
+    transition: .2s all ease-in-out;
+}
+nav img{
+    max-width: 100%;
+    height: 90%;
+}
